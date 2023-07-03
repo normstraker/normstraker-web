@@ -420,9 +420,6 @@ body {
   }
 }
 @media (max-width: 768px) {
-  .header {
-    background-color: red;
-  }
   .header-links {
     width: 70%;
     justify-content: space-evenly;
@@ -522,9 +519,6 @@ body {
   }
 }
 @media (max-width: 480px) {
-  .header {
-    background-color: purple;
-  }
   .header-logo {
     font-size: 1.8rem;
   }
