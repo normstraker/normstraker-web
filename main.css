@@ -393,8 +393,8 @@
     text-align: center;
     width: 100%;
   }
-  .main-primary-section--grid__image{
-    padding: .5rem;
+  .main-primary-section--grid__image {
+    padding: 0.5rem;
   }
   .main-primary-section--grid__image-one {
     grid-column: 1 / 3;
