@@ -1,0 +1,3 @@
+remove Resources link from blog.html
+create blog-index table of contents under .blog-intro-section
+add 'to index' button in corner of each .blog-post-article
