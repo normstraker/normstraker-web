@@ -196,4 +196,16 @@
   .header {
     background-color: purple;
   }
+  .blog-single-article-related-container{
+    width: 100%;
+  }
+  .blog-single-article h3{
+    font-size: 1.25rem;
+  }
+  .blog-single-article p {
+    font-size: 1.1rem;
+  }
+  .blog-single-article-aside-container{
+    display: none;
+  }
 }
