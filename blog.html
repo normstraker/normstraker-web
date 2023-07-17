@@ -3,9 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./shared.css" />
     <link rel="stylesheet" href="./blog.css" />
-    <title>Blog - ProductHQ</title>
+    <title>ProductHQ Blog Index</title>
   </head>
   <body>
     <!-- ===== HEADER START ===== -->
@@ -14,38 +21,102 @@
         <a href="./index.html" class="header-logo"
           >Product<span class="header-logo-span">HQ</span></a
         >
-        <span class="header-blog-title">Blogs</span>
+        <span class="header-center-title">Blog</span>
         <ul class="header-links">
-          <li class="header-links--first">
-            Buying Guides
-            <ul class="header-dropdown">
-              <li>
-                <a href="#">Best Product One</a>
-              </li>
-              <li><a href="#">Best Product Two</a></li>
-              <li><a href="#">Best Product Three</a></li>
-            </ul>
-          </li>
-          <li><a href="./blog.html">Resources</a></li>
+          <li><a href="#table-of-contents">Table of Contents</a></li>
         </ul>
       </nav>
-      <!-- 320px — 480px: Mobile devices -->
-      <nav>
-        <ul class="header-dropdown-small">
-          <a href="#"><li>Best Product One</li></a>
-          <a href="#"><li>Best Product Two</li></a>
-          <a href="#"><li>Best Product Three</li></a>
+      <nav class="header-product-links-container">
+        <ul class="header-product-links">
+          <a href="#"><li>Product Review One</li></a>
+          <a href="#"><li>Product Review Two</li></a>
+          <a href="#"><li>Product Review Three</li></a>
         </ul>
       </nav>
     </header>
+    <!-- ===== HEADER END ===== -->
+    <!-- ===== BLOG SECTION START ===== -->
     <section class="blog-intro-section">
       <h1 class="blog-intro-section--h1">
         Discover the Latest ProductHQ Resources
       </h1>
     </section>
+
     <section class="blog-main-section">
-      <article class="blog-post-article">
-        <a href="#" class="blog-post-link"
+      <div class="blog-post-toc" id="table-of-contents">
+        <h2 class="blog-post-toc-h2">Resource Article Intros</h2>
+        <ul>
+          <a href="#blog-one"
+            ><li>
+              - A Beginner's Guide to Choosing the Right Chainsaw for Your
+              Needs -
+            </li></a
+          >
+          <a href="#blog-two"
+            ><li>
+              - Enhancing Chainsaw Safety with Anti-vibration Systems and Chain
+              Brakes -
+            </li></a
+          >
+          <a href="#blog-three"
+            ><li>
+              - Battery-powered Chainsaws: The Benefits of Cordless Mobility -
+            </li></a
+          >
+          <a href="#blog-four"
+            ><li>
+              - Chainsaw Maintenance Checklist: Regular Inspections for
+              Longevity and Performance -
+            </li></a
+          >
+          <a href="#blog-five"
+            ><li>
+              - Chainsaw Safety Tips: Protecting Yourself and Others -
+            </li></a
+          >
+          <a href="#blog-six"
+            ><li>
+              - Chainsaw Techniques: Mastering the Art of Cutting and Felling -
+            </li></a
+          >
+          <a href="#blog-seven"
+            ><li>
+              - Understanding Chainsaw Bar Lengths: Choosing the Right Size for
+              Your Tasks -
+            </li></a
+          >
+          <a href="#blog-eight"
+            ><li>
+              - Choosing the Right Protective Gear for Chainsaw Operation -
+            </li></a
+          >
+          <a href="#blog-nine"
+            ><li>- How to Properly Sharpen a Chainsaw Chain -</li></a
+          >
+          <a href="#blog-ten">
+            <li>
+              - The Importance of Chainsaw Maintenance: Keeping Your Tool in Top
+              Shape -
+            </li></a
+          >
+          <a href="#blog-eleven"
+            ><li>
+              - The Impact of Chainsaw Use on Wildlife and Habitat
+              Conservation -
+            </li></a
+          >
+          <a href="#blog-twelve"
+            ><li>- Gas-powered vs. Electric Chainsaws: Pros and Cons -</li></a
+          >
+          <a href="#blog-thirteen"
+            ><li>
+              - Eco-friendly Fuel Options for Chainsaws: A Greener Approach -
+            </li></a
+          >
+        </ul>
+      </div>
+      <article id="blog-one" class="blog-post-article">
+        <a href="./blog-posts/blogOne.html" class="blog-post-link"
           ><h2 class="blog-post-h2">
             A Beginner's Guide to Choosing the Right Chainsaw for Your Needs
           </h2>
@@ -68,10 +139,16 @@
             chainsaw use, ensuring that you have all the necessary information
             to make a confident and well-informed decision.
           </p>
-          <a href="#" class="blog-post-button">READ MORE +</a></a
-        >
+        </a>
+        <div class="blog-post-button-group">
+          <a href="./blog-posts/blogOne.html" class="blog-post-button"
+            >READ MORE +</a
+          ><a href="#table-of-contents" class="blog-post-button"
+            >TABLE OF CONTENTS <i class="fa-solid fa-arrow-up"></i
+          ></a>
+        </div>
       </article>
-      <article class="blog-post-article">
+      <article id="blog-two" class="blog-post-article">
         <a href="#" class="blog-post-link"
           ><h2 class="blog-post-h2">
             Enhancing Chainsaw Safety with Anti-vibration Systems and Chain
@@ -91,11 +168,16 @@
             anti-vibration systems and chain brakes. In this blog post, we will
             explore how these features enhance chainsaw safety, ensuring a safer
             and more efficient cutting experience for users of all levels.
-          </p>
-          <a href="#" class="blog-post-button">READ MORE +</a></a
+          </p></a
         >
+        <div class="blog-post-button-group">
+          <a href="#" class="blog-post-button">READ MORE +</a
+          ><a href="#table-of-contents" class="blog-post-button"
+            >TABLE OF CONTENTS <i class="fa-solid fa-arrow-up"></i
+          ></a>
+        </div>
       </article>
-      <article class="blog-post-article">
+      <article id="blog-three" class="blog-post-article">
         <a href="#" class="blog-post-link"
           ><h2 class="blog-post-h2">
             Battery-powered Chainsaws: The Benefits of Cordless Mobility
@@ -112,12 +194,17 @@
             we will explore the benefits of cordless mobility and how
             battery-powered chainsaws are revolutionizing the way homeowners and
             DIY enthusiasts approach their cutting tasks.
-          </p>
-          <a href="#" class="blog-post-button">READ MORE +</a></a
+          </p></a
         >
+        <div class="blog-post-button-group">
+          <a href="#" class="blog-post-button">READ MORE +</a
+          ><a href="#table-of-contents" class="blog-post-button"
+            >TABLE OF CONTENTS <i class="fa-solid fa-arrow-up"></i
+          ></a>
+        </div>
       </article>
     </section>
-    <!-- ===== HEADER END ===== -->
+    <!-- ===== BLOG SECTION END ===== -->
     <!-- ===== FOOTER START ===== -->
     <footer class="footer">
       <div class="footer-section">
