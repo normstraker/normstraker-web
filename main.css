@@ -238,7 +238,7 @@
 }
 .main-contact-button:hover,
 .main-contact-button:active {
-  box-shadow: 0 0 1px 3px #00800080;
+  transform: scale(1.05);
 }
 /* ===================== */
 /* === MEDIA QUERIES === */
