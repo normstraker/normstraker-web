@@ -1,7 +1,11 @@
-blogOne.html responsive
+check current media queries in productReview.css to see if they are relevant and adjust or delete.
 
-create product.html
+productReview.html responsive
 
-product.html responsive
+Add article titles to home page (blog pages)
 
-affiliate course word tracks ChatGPT outlined
+Battery-powered Chainsaws or Gas-powered vs. Electric Chainsaws (for productReview) page
+
+Understanding Residential Chainsaws (for productReview) page
+
+A Beginner's Guide to Choosing the Right Chainsaw for Your Needs (for productReview)
