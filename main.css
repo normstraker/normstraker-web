@@ -47,19 +47,19 @@
 }
 .main-primary-section--grid__image-one {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/camera.jpg) center/cover;
+    url(./blog-images/camera6.jpg) center/cover;
   grid-column: 1 / 3;
   grid-row: 1 / 3;
 }
 .main-primary-section--grid__image-two {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/lens.jpg) center/cover;
+    url(./blog-images/pexels-fujifilm-north-america-3497060.jpg) center/cover;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
 }
 .main-primary-section--grid__image-three {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(images/memory.jpg) center/cover;
+    url(./blog-images/camera5.jpg) center/cover;
   grid-column: 3 / 4;
   grid-row: 2 / 3;
 }
@@ -112,12 +112,13 @@
   margin: 0 auto;
 }
 .main-secondary-section--span {
-  color: #a68ba5;
+  color: #008000;
   margin-top: 3.5rem;
   font-weight: 700;
-  text-shadow: 2px 2px 2px #a68ba5;
+  text-shadow: 2px 2px 2px #008000;
 }
 .main-secondary-section--h2 {
+  color: #4d4d4d;
   font-weight: 700;
   font-size: 2rem;
   line-height: 1;
@@ -135,37 +136,37 @@
   text-shadow: 3px 2px 3px black;
 }
 .main-secondary-section--grid__image-one {
-  background: linear-gradient(#ffca3a80, #ffca3a80),
+  background: linear-gradient(#00000033, #00000033),
     url(./images/pexels-fujifilm-north-america-3497126.jpg) center/cover;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 .main-secondary-section--grid__image-two {
-  background: linear-gradient(#00cfc180, #00cfc180),
+  background: linear-gradient(#00000033, #00000033),
     url(./images/pexels-dan-cristian-pădureț-1422217.jpg) center/cover;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
 }
 .main-secondary-section--grid__image-three {
-  background: linear-gradient(#ffca3a80, #ffca3a80),
+  background: linear-gradient(#00000033, #00000033),
     url(./images/pexels-dan-cristian-pădureț-1422218.jpg) center/cover;
   grid-column: 3 / 4;
   grid-row: 1 / 2;
 }
 .main-secondary-section--grid__image-four {
-  background: linear-gradient(#a68ba580, #a68ba580),
+  background: linear-gradient(#00000033, #00000033),
     url(./images/pexels-dan-cristian-pădureț-1422220.jpg) center/cover;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 .main-secondary-section--grid__image-five {
-  background: linear-gradient(#ff654280, #ff654280),
+  background: linear-gradient(#00000033, #00000033),
     url(./images/pexels-fujifilm-north-america-3497060.jpg) center/cover;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 }
 .main-secondary-section--grid__image-six {
-  background: linear-gradient(#a68ba580, #a68ba580),
+  background: linear-gradient(#00000033, #00000033),
     url(./images/pexels-alex-andrews-1983038.jpg) center/cover;
   grid-column: 3 / 4;
   grid-row: 2 / 3;
@@ -178,7 +179,8 @@
   outline-offset: -10px;
 }
 .main-secondary-section--grid__image span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
 }
 .main-secondary-section--grid__image h2 {
   margin: 1rem 0 2rem;
@@ -210,7 +212,7 @@
   width: 80%;
   margin: 1rem auto 5rem;
   max-width: 75rem;
-  background-color: #ffca3a;
+  background-color: #00800080;
   color: white;
   text-shadow: 3px 2px 3px black;
   border-radius: 1rem;
@@ -262,37 +264,37 @@
     margin: 1.75rem 0;
   }
   .main-secondary-section--grid__image-one {
-    background: linear-gradient(#ffca3a80, #ffca3a80),
+    background: linear-gradient(#00000033, #00000033),
       url(./images/pexels-fujifilm-north-america-3497126.jpg) center/cover;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
   .main-secondary-section--grid__image-two {
-    background: linear-gradient(#a68ba580, #a68ba580),
+    background: linear-gradient(#00000033, #00000033),
       url(./images/pexels-dan-cristian-pădureț-1422217.jpg) center/cover;
     grid-column: 2 / 3;
     grid-row: 1 / 2;
   }
   .main-secondary-section--grid__image-three {
-    background: linear-gradient(#ff654280, #ff654280),
+    background: linear-gradient(#00000033, #00000033),
       url(./images/pexels-dan-cristian-pădureț-1422218.jpg) center/cover;
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
   .main-secondary-section--grid__image-four {
-    background: linear-gradient(#00cfc180, #00cfc180),
+    background: linear-gradient(#00000033, #00000033),
       url(./images/pexels-dan-cristian-pădureț-1422220.jpg) center/cover;
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
   .main-secondary-section--grid__image-five {
-    background: linear-gradient(#a68ba580, #a68ba580),
+    background: linear-gradient(#00000033, #00000033),
       url(./images/pexels-fujifilm-north-america-3497060.jpg) center/cover;
     grid-column: 1 / 2;
     grid-row: 3 / 4;
   }
   .main-secondary-section--grid__image-six {
-    background: linear-gradient(#ffca3a80, #ffca3a80),
+    background: linear-gradient(#00000033, #00000033),
       url(./images/pexels-alex-andrews-1983038.jpg) center/cover;
     grid-column: 2 / 3;
     grid-row: 3 / 4;

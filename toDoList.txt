@@ -1,7 +1,3 @@
-check current media queries in productReview.css to see if they are relevant and adjust or delete.
-
-productReview.html responsive
-
 Add article titles to home page (blog pages)
 
 Battery-powered Chainsaws or Gas-powered vs. Electric Chainsaws (for productReview) page
